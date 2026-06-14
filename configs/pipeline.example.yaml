@@ -1,0 +1,36 @@
+# Copy to configs/pipeline.yaml and set your hardware paths.
+
+robot:
+  port: /dev/serial/by-id/usb-ROBOT-if00
+  id: my_awesome_follower_arm
+
+cameras:
+  front:
+    type: opencv
+    index_or_path: /dev/video2
+    width: 640
+    height: 480
+    fps: 30
+  realsense:
+    type: intelrealsense
+    serial_number_or_name: "000000000000"
+    width: 640
+    height: 480
+    fps: 30
+
+policy:
+  path: qualia-robotics/act-2orange-50-Tactile-v2-5742f3f9
+  task: pick orange
+  duration: 30
+
+palpation:
+  sensor_port: /dev/ttyUSB0
+  hardness_threshold: 40.0
+
+routes:
+  ripe:
+    repo_id: local_dir/ripesort_routes_ripe
+    episode: 0
+  reject:
+    repo_id: local_dir/ripesort_routes_reject
+    episode: 0

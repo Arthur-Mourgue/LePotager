@@ -1,0 +1,9 @@
+pyyaml>=6.0
+numpy>=2.0.0
+pyserial>=3.5
+
+# LeRobot + robot stack (after submodule init):
+#   pip install -e "./lerobot[feetech,pyserial-dep]"
+
+# Optional: live FPB plot in tests/test_velostat_fpb.py
+# matplotlib
