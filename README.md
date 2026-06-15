@@ -41,7 +41,7 @@ The cause is purely statistical because we generated so many recovery trajectori
 <p align="center">
   <img src="docs/fail.gif" width="520" alt="The policy deliberately aiming next to the fruit before correcting"/>
   <br/>
-  <i>The policy aiming beside the fruit on purpose — distribution beats intent.</i>
+  <i>The policy aiming beside the fruit on purpose </i>
 </p>
 
 ## Tech stack
