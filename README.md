@@ -10,7 +10,7 @@
   <img src="docs/pipeline.gif" width="640" alt="LePotager picking, probing, and sorting an orange"/>
 </p>
 
-🏆 **Most Creative Project** : built in 48 hours at the Hugging Face *LeRobot Mini-Factory* hackathon.
+🏆 **Most Creative Project** : built in 24 hours at the Hugging Face *LeRobot Mini-Factory* hackathon.
 
 ## The problem
 
@@ -25,7 +25,7 @@ Each cycle chains three steps:
 3. **Sort** : a recorded trajectory drops the fruit in the matching bin.
 
 <p align="center">
-  <img src="docs/sensing.gif" width="520" alt="Gripper squeezing the orange while the pressure signal spikes"/>
+  <img src="docs/sensing.gif" width="350" alt="Gripper squeezing the orange while the pressure signal spikes"/>
   <br/>
   <i>The gripper probing firmness</i>
 </p>
